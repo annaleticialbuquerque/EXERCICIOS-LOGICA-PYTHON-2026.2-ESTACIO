@@ -1,0 +1,136 @@
+EXERCÍCIO 01 – EXPLICAÇÕES
+
+SLIDE 2 – Strings, split() e join()
+
+Espaços no início e no final:
+São espaços existentes antes e depois do texto armazenado na variável.
+
+"":
+Representa uma string vazia. Nesse exemplo, ela é usada como separador no join().
+
+split():
+Divide a string em partes. Sem um separador especificado, utiliza os espaços para fazer a divisão.
+
+join():
+Junta as partes de uma sequência em uma única string, utilizando a string que está antes de .join() como separador.
+
+SLIDE 3 – Expressão regular
+
+import re:
+Importa o módulo re, utilizado para trabalhar com expressões regulares no Python.
+
+re.findall():
+Procura todas as ocorrências que correspondem ao padrão informado dentro da string e retorna os resultados encontrados.
+
+[A-Z][a-z]*:
+É um padrão de expressão regular. [A-Z] representa uma letra maiúscula de A até Z e [a-z]* representa zero ou mais letras minúsculas.
+
+" ".join(partes):
+Junta as partes encontradas, colocando um espaço entre cada uma delas.
+
+SLIDE 4 – Métodos de manipulação de strings
+
+capitalize():
+Deixa a primeira letra da string em maiúscula.
+
+lower():
+Converte a string para letras minúsculas.
+
+upper():
+Converte a string para letras maiúsculas.
+
+title():
+Coloca a primeira letra de cada palavra em maiúscula.
+
+strip():
+Remove espaços ou quebras de linha do início e do final da string.
+
+replace():
+Substitui uma parte da string por outra.
+
+split():
+Divide uma string em partes.
+
+join():
+Junta elementos de uma sequência em uma única string.
+
+SLIDE 5 – Três aspas
+
+''':
+As três aspas permitem criar uma string que pode ocupar várias linhas.
+
+SLIDE 9 – Função len()
+
+len:
+É uma função que retorna a quantidade de caracteres de uma string.
+
+nome:
+É uma variável que armazena uma string. No exemplo, armazena "Heitor".
+
+len(nome):
+Retorna a quantidade de caracteres armazenados na variável nome.
+
+SLIDE 10 – Índices
+
+alfabeto:
+É uma variável que armazena uma sequência de caracteres.
+
+[0]:
+Representa o índice 0, que corresponde ao primeiro caractere da string.
+
+alfabeto[0]:
+Retorna o primeiro caractere armazenado na variável alfabeto.
+
+SLIDE 11 – Concatenação
+
+Concatenação:
+É a união de duas ou mais strings.
+
+letras:
+É uma variável que armazena a string "ABDE".
+
++:
+É o operador utilizado para concatenar, ou seja, unir strings.
+
+"FGH":
+É uma string que será unida ao conteúdo da variável letras.
+
+SLIDE 12 – Repetição de string
+
+*:
+O operador * pode ser utilizado para repetir uma string determinada quantidade de vezes.
+
+5:
+Indica que a string "F" será repetida cinco vezes.
+
+SLIDE 13 – Repetição de caracteres
+
+"X":
+É uma string contendo o caractere X.
+
+"-" * 10:
+Repete o caractere "-" dez vezes.
+
+SLIDE 14 – Fatiamento
+
+cidade:
+É uma variável que armazena a string "Fortaleza".
+
+[0:3]:
+Representa um fatiamento da string, selecionando os caracteres a partir do índice 0 até antes do índice 3.
+
+0:
+É o índice inicial do fatiamento.
+
+3:
+É o índice final, que não é incluído no resultado.
+
+cidade[0:3]:
+Obtém os três primeiros caracteres da string cidade.
+
+fateada:
+É a variável que recebe o resultado do fatiamento.
+
+SLIDES 16, 17, 18 e 19
+
+Esses slides apresentam novamente os mesmos conceitos dos slides 2, 3, 4 e 5. Portanto, as explicações correspondentes já estão apresentadas acima.
