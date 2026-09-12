@@ -122,6 +122,30 @@ Representa um fatiamento da string, selecionando os caracteres a partir do índi
 0:
 É o índice inicial do fatiamento.
 
+SLIDE 6 – Manipulação de espaços e caracteres
+
+→ strip(): remove espaços em branco do início e do fim da string.
+
+→ lstrip(): remove espaços em branco do início da string.
+
+→ rstrip(): remove espaços em branco do final da string.
+
+→ removeprefix(): remove um prefixo especificado do início da string.
+
+→ removesuffix(): remove um sufixo especificado do final da string.
+
+
+SLIDE 7 – Substituição e formatação
+
+→ replace(old, new[, count]): substitui uma parte da string por outra.
+
+→ format(*args, **kwargs): permite inserir valores dentro de uma string.
+
+→ format_map(mapping): formata a string usando valores de um mapeamento, como um dicionário.
+
+→ expandtabs(tabsize=8): substitui os caracteres de tabulação por espaços.
+
+→ translate(table): substitui caracteres de acordo com uma tabela de tradução.
 3:
 É o índice final, que não é incluído no resultado.
 
